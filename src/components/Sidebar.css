@@ -1,0 +1,29 @@
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #e9ecef;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #007bff; /* Active background color */
+    color: white;
+    font-weight: bold;
+  }
+  
